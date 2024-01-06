@@ -27,7 +27,7 @@ def main():
     if board.win != None:
       board.win_screen()
       pygame.display.update()
-      time.sleep(5) # A buffer to show the player how they lost
+      time.sleep(3) # A buffer to show the player how they lost
       pygame.quit()
       quit()
     else:
